@@ -1,0 +1,19 @@
+data/raw/
+data/intermediate/
+*.parquet
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+data/synthetic/
+# raw outputs contain sample URLs from the panel; only aggregated findings are published in docs/
+outputs/profile*/
+outputs/01_param_discovery*/
+outputs/*_synthetic*/
+outputs/02_param_values*/
+outputs/03_affiliate_clicks*/
+outputs/04_conversions*/
+outputs/05_us_scaling*/
+outputs/05b_mattress_comparison*/
+outputs/06_hijacking*/
+outputs/07_competitive_benchmark*/
